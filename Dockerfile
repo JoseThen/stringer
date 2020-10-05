@@ -1,4 +1,4 @@
-FROM ruby:2.3.3
+FROM arm32v7/ruby:2.7
 
 ENV RACK_ENV=production
 ENV PORT=8080
